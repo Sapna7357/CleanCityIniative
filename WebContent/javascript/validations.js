@@ -51,7 +51,7 @@ $(document).ready(function() {
       $(".uname-error").text("** This field is required");
       checkValidations = false;
     }
-    if (password_check != "") {
+    if (password_check!= "") {
         if (password.test(password_check)) {
           $(".password-error").text("");
         } else {
