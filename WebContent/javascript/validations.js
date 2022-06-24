@@ -64,7 +64,7 @@ $(document).ready(function() {
         
         checkValidations = false;
       }
-    if (confirmPassword_check != "") {
+    if (confirmPassword_check!= "") {
         if (confirmPassword_check == password_check ) {
           $(".confirm-error").text("");
         } else {
